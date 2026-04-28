@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback - Pine City Zoo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <img src="images/logo.png" alt="Pine City Zoo">
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="animals.html">Animals</a>
+      <a href="places.html">Places</a>
+      <a href="map.html">Map</a>
+      <a href="weather.html">Weather</a>
+      <a href="feedback.html" class="active">Feedback</a>
+    </nav>
+  </div>
+
+  <div class="page-header">
+    <h1>Feedback</h1>
+    <p>We'd love to hear from you!</p>
+  </div>
+
+  <div class="content">
+    <form class="feedback-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="visit-date">Date of Visit</label>
+        <input type="date" id="visit-date" name="visit-date">
+      </div>
+
+      <div class="form-group">
+        <label for="rating">How was your visit?</label>
+        <select id="rating" name="rating">
+          <option value="">Select a rating</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+          <option value="poor">Poor</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Feedback</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us about your experience..."></textarea>
+      </div>
+
+      <button type="submit" class="btn">Submit Feedback</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Contact Us</h3>
+      <p><strong>Phone:</strong> (011) 123 4567</p>
+      <p><strong>Email:</strong> info@pinecityzoo.co.za</p>
+      <p><strong>Address:</strong> Pine City Zoo, Pretoria, South Africa</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Pine City Zoo. All rights reserved.</p>
+  </footer>
+</body>
+</html>

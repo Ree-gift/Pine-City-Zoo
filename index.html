@@ -2,27 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pine City Zoo - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="header">
-    <img src="images/logo.png" alt="Logo">
+    <img src="images/logo.png" alt="Pine City Zoo">
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="animals.html">Animals</a>
+      <a href="places.html">Places</a>
+      <a href="map.html">Map</a>
+      <a href="weather.html">Weather</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
   </div>
 
-  <div id="tabs-top">
-    <a href="#">ANIMALS</a>
-    <a href="#">MAP</a>
-    <a href="#">PLACES</a>
+  <div class="hero">
+    <img src="images/sky.jpg" alt="Zoo Entrance">
+    <div class="hero-text">
+      <h1>Welcome to Pine City Zoo</h1>
+      <p>Experience wildlife like never before</p>
+    </div>
   </div>
 
-  <div id="main-home">
-    <img src="images/map.png" width="100" alt="Map">
+  <div class="content">
+    <section class="features">
+      <div class="feature-card">
+        <img src="images/lion-tn.png" alt="Safari">
+        <h3>Big Cats</h3>
+        <p>See lions, tigers, and more</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/elephant-tn.png" alt="Elephants">
+        <h3>Elephants</h3>
+        <p>Watch our gentle giants</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/monkey-tn.png" alt="Monkeys">
+        <h3>Primates</h3>
+        <p>Playful monkeys await</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/giraffe-tn.png" alt="Giraffes">
+        <h3>Giraffes</h3>
+        <p>Feed the giraffes</p>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <h2>Visit Us Today</h2>
+      <p>Open daily from 9 AM to 5 PM</p>
+      <p>Starting from R150 per person</p>
+      <a href="feedback.html" class="btn">Book a Visit</a>
+    </section>
   </div>
 
-  <div id="tabs-bottom">
-    <a href="#">WEATHER</a>
-    <a href="#">FEEDBACK</a>
-  </div>
+  <footer>
+    <p>&copy; 2025 Pine City Zoo. All rights reserved.</p>
+  </footer>
 </body>
 </html>
